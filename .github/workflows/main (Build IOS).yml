@@ -109,9 +109,9 @@ jobs:
           APPSTORE_P8: ${{ secrets.APPSTORE_P8 }}
 
           IOS_BUILD_PATH: ${{ format('{0}/build/iOS', github.workspace) }}
-          IOS_BUNDLE_ID: com.dorohandev.app
-          APP_VERSION: "1.0.1"
-          PROJECT_NAME: Master Fishing Book
+          IOS_BUNDLE_ID: com.koginproj.app
+          APP_VERSION: "1.0.0"
+          PROJECT_NAME: Show Wheel Time
         run: |
           eval "$(ssh-agent -s)"
           ssh-add - <<< "${MATCH_DEPLOY_KEY}"
@@ -129,6 +129,7 @@ jobs:
       #  uses: geekyeggo/delete-artifact@v2
       #  with:
       #    name: build-iOS
+
 
 
 
