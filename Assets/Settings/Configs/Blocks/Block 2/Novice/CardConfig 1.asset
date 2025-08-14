@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01916d2dc7a53414383ffc9e2c9ec750, type: 3}
+  m_Name: CardConfig 1
+  m_EditorClassIdentifier: 
+  ID: 1
+  Name: How the Brain Works
+  Description: "Your brain controls everything \u2014 thoughts, movement, emotions.
+    It sends signals through neurons, like a super-fast communication system. It
+    never fully \u201Cshuts off\u201D \u2014 even when you're asleep."
+  Question:
+    Name: What does the brain do while you sleep?
+    Answers:
+    - Text: Stops working
+      IsCorrect: 0
+    - Text: Continues processing
+      IsCorrect: 1
+    - Text: Sends pain signals
+      IsCorrect: 0
+    - Text: Moves your muscles
+      IsCorrect: 0

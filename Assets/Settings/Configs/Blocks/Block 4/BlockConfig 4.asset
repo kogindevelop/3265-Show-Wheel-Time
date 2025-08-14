@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26b49e80d5a884248a653ad49212f3c9, type: 3}
+  m_Name: BlockConfig 4
+  m_EditorClassIdentifier: 
+  ID: 4
+  WheelPrize: 3
+  Name: World & Society
+  CardSets:
+  - Difficulty: 0
+    Cards:
+    - {fileID: 11400000, guid: 99087b2619e8c90458d15c772b1dbf10, type: 2}
+    - {fileID: 11400000, guid: d3ce91f0ede1ea84dbcd7f96f365a2ff, type: 2}
+    - {fileID: 11400000, guid: e11ac2246db50a04bb3d508aab715303, type: 2}
+  - Difficulty: 1
+    Cards:
+    - {fileID: 11400000, guid: 9b4b0eac41a3a1a40acbad3788efb66b, type: 2}
+    - {fileID: 11400000, guid: 626aff9852cc3a3449bb96a8a44f4a86, type: 2}
+    - {fileID: 11400000, guid: b2b72b547d7be6941a12272842b49e31, type: 2}
+  - Difficulty: 2
+    Cards:
+    - {fileID: 11400000, guid: 2cab1b5e666f39544bd7631c6642b907, type: 2}
+    - {fileID: 11400000, guid: 6c51ea991b70d2c41b26e728f6c43627, type: 2}
+    - {fileID: 11400000, guid: d493fdc1aa4d459478fc7e58255b3701, type: 2}

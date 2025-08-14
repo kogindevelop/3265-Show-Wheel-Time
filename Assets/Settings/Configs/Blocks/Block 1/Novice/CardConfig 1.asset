@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01916d2dc7a53414383ffc9e2c9ec750, type: 3}
+  m_Name: CardConfig 1
+  m_EditorClassIdentifier: 
+  ID: 1
+  Name: 'What is Critical Thinking? '
+  Description: "Critical thinking is the ability to analyze facts and ideas clearly
+    and logically. It means not accepting information at face value, but instead
+    asking: \u201CIs this true? What is the evidence?\u201D It\u2019s not about being
+    negative \u2014 it\u2019s about being thoughtful."
+  Question:
+    Name: What is critical thinking mainly about?
+    Answers:
+    - Text: 'Being skeptical of everything '
+      IsCorrect: 0
+    - Text: 'Trusting your instincts '
+      IsCorrect: 0
+    - Text: Analyzing facts and evidence
+      IsCorrect: 1
+    - Text: Giving your opinion freely
+      IsCorrect: 0

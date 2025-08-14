@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01916d2dc7a53414383ffc9e2c9ec750, type: 3}
+  m_Name: CardConfig 3
+  m_EditorClassIdentifier: 
+  ID: 3
+  Name: Two-Factor Authentication (2FA)
+  Description: "  2FA adds a second step to logging in \u2014 like a text code or
+    app notification. Even if someone steals your password, they can\u2019t log in
+    without the second step. Always turn it on!"
+  Question:
+    Name: "What\u2019s the main purpose of 2FA?"
+    Answers:
+    - Text: Make logging in slower
+      IsCorrect: 0
+    - Text: Add extra protection
+      IsCorrect: 1
+    - Text: Share passwords securely
+      IsCorrect: 0
+    - Text: Help hackers track users
+      IsCorrect: 0

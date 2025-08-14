@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01916d2dc7a53414383ffc9e2c9ec750, type: 3}
+  m_Name: CardConfig 3
+  m_EditorClassIdentifier: 
+  ID: 3
+  Name: How to Beat Procrastination
+  Description: Procrastination often hides fear or overwhelm. Break big tasks into
+    small steps, use a timer (like the Pomodoro method), and reward yourself when
+    finished.
+  Question:
+    Name: How can you beat procrastination?
+    Answers:
+    - Text: Keep stressing
+      IsCorrect: 0
+    - Text: Break tasks into smaller steps
+      IsCorrect: 1
+    - Text: Wait for inspiration
+      IsCorrect: 0
+    - Text: Sleep more
+      IsCorrect: 0

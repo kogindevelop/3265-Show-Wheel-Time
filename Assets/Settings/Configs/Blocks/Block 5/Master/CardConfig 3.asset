@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01916d2dc7a53414383ffc9e2c9ec750, type: 3}
+  m_Name: CardConfig 3
+  m_EditorClassIdentifier: 
+  ID: 3
+  Name: Breaking Down Big Goals
+  Description: Big goals feel overwhelming. Break them into smaller steps. Focus
+    on progress, not perfection.
+  Question:
+    Name: How should you approach a big goal?
+    Answers:
+    - Text: Do it all at once
+      IsCorrect: 0
+    - Text: Break it into smaller steps
+      IsCorrect: 1
+    - Text: Ignore it
+      IsCorrect: 0
+    - Text: Tell no one
+      IsCorrect: 0

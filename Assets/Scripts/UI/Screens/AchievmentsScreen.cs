@@ -1,0 +1,25 @@
+using System;
+using UnityEngine;
+using UnityEngine.UI;
+
+namespace UI.Screens
+{
+    public class AchievmentsScreen : BaseScreen
+    {
+        [SerializeField] private Button _backButton;
+
+        public AchievementsManager AchievementsManager;
+        
+        public event Action OnBackPressed;
+        
+        public void Initialize()
+        {
+            SubscribeEvents();
+        }
+        
+        private void SubscribeEvents()
+        {
+            _backButton.onClick.AddListener(() => OnBackPressed?.Invoke());
+        }
+    }
+}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01916d2dc7a53414383ffc9e2c9ec750, type: 3}
+  m_Name: CardConfig 2
+  m_EditorClassIdentifier: 
+  ID: 2
+  Name: Password Tips
+  Description: "Strong passwords mix letters, numbers, and symbols \u2014 like G7%p!l8Q.
+    Avoid easy ones like 123456 or your dog\u2019s name. Never reuse the same password
+    for important accounts."
+  Question:
+    Name: Which password is the strongest?
+    Answers:
+    - Text: 123456
+      IsCorrect: 0
+    - Text: password1
+      IsCorrect: 0
+    - Text: mydog2020
+      IsCorrect: 0
+    - Text: R#4p!Xe8LQ
+      IsCorrect: 1

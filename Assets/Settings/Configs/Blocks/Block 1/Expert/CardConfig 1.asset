@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01916d2dc7a53414383ffc9e2c9ec750, type: 3}
+  m_Name: CardConfig 1
+  m_EditorClassIdentifier: 
+  ID: 1
+  Name: What is Phishing?
+  Description: "Phishing is a fake message (email, SMS, etc.) pretending to be from
+    a trusted source. It often asks for passwords, bank info, or to click a link.
+    Look for signs like poor grammar, suspicious links, or urgency like \u201CAct
+    now!\u201D"
+  Question:
+    Name: What is phishing?
+    Answers:
+    - Text: A way to find real news
+      IsCorrect: 0
+    - Text: A scam pretending to be trustworthy
+      IsCorrect: 1
+    - Text: A form of online shopping
+      IsCorrect: 0
+    - Text: A way to learn passwords
+      IsCorrect: 0

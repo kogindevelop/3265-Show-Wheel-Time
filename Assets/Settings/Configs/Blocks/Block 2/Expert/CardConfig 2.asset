@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01916d2dc7a53414383ffc9e2c9ec750, type: 3}
+  m_Name: CardConfig 2
+  m_EditorClassIdentifier: 
+  ID: 2
+  Name: Acids and Bases
+  Description: "Acids taste sour (like lemon), and bases feel slippery (like soap).
+    The pH scale (0\u201314) measures them: acids <7, bases >7. Water is neutral
+    (pH 7)."
+  Question:
+    Name: What is the pH of pure water?
+    Answers:
+    - Text: 2
+      IsCorrect: 0
+    - Text: 7
+      IsCorrect: 1
+    - Text: 10
+      IsCorrect: 0
+    - Text: 14
+      IsCorrect: 0

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01916d2dc7a53414383ffc9e2c9ec750, type: 3}
+  m_Name: CardConfig 2
+  m_EditorClassIdentifier: 
+  ID: 2
+  Name: How Habits Are Built
+  Description: "Habits follow a loop: cue \u2192 action \u2192 reward. For example,
+    \u201CFeel stressed \u2192 scroll phone \u2192 feel distracted.\u201D You can
+    change habits by changing one part of the loop."
+  Question:
+    Name: What are the parts of a habit loop?
+    Answers:
+    - Text: "Start \u2192 goal \u2192 win"
+      IsCorrect: 0
+    - Text: "Want \u2192 plan \u2192 do"
+      IsCorrect: 0
+    - Text: "Cue \u2192 action \u2192 reward"
+      IsCorrect: 1
+    - Text: "Time \u2192 energy \u2192 result"
+      IsCorrect: 0

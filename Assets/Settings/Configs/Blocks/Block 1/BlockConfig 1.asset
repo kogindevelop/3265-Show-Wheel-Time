@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26b49e80d5a884248a653ad49212f3c9, type: 3}
+  m_Name: BlockConfig 1
+  m_EditorClassIdentifier: 
+  ID: 1
+  Name: 'Daily Life Skills '
+  CardSets:
+  - Difficulty: 0
+    Cards:
+    - {fileID: 11400000, guid: b63b9db5f7b04ce4cb117ecb7f24ab53, type: 2}
+    - {fileID: 11400000, guid: adb84e09461adf24d9196715563d6ee8, type: 2}
+    - {fileID: 11400000, guid: 011293c56ada8e14d8c6aef2852020f1, type: 2}
+  - Difficulty: 1
+    Cards:
+    - {fileID: 11400000, guid: 61506a2b8302e0141bc9bdd0cea39f77, type: 2}
+    - {fileID: 11400000, guid: ab39bea49e1a19d41b1a4d7e82140f18, type: 2}
+    - {fileID: 11400000, guid: fa8e102346d66534b96cac4870ed94c7, type: 2}
+  - Difficulty: 2
+    Cards:
+    - {fileID: 11400000, guid: 3ec37a172d90520488fba585082c23b6, type: 2}
+    - {fileID: 11400000, guid: 2cd574c78dc75564cbc0f73ac44945f0, type: 2}
+    - {fileID: 11400000, guid: 17ce6865a5cd242498197c70bfe9e358, type: 2}

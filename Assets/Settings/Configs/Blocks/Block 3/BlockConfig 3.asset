@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26b49e80d5a884248a653ad49212f3c9, type: 3}
+  m_Name: BlockConfig 3
+  m_EditorClassIdentifier: 
+  ID: 3
+  WheelPrize: 2
+  Name: Art & Culture
+  CardSets:
+  - Difficulty: 0
+    Cards:
+    - {fileID: 11400000, guid: fe8afeb8b64392d4a9f26c4e553d5c36, type: 2}
+    - {fileID: 11400000, guid: c518c35362c55dd4c881180930fe0741, type: 2}
+    - {fileID: 11400000, guid: 4e227bb54651e2f43ac186d166fbabfc, type: 2}
+  - Difficulty: 1
+    Cards:
+    - {fileID: 11400000, guid: 714ccc3a546f1a040947f25042fb5142, type: 2}
+    - {fileID: 11400000, guid: 0e57cb10bf7e1b043a61163465f14e03, type: 2}
+    - {fileID: 11400000, guid: 13fe93c6060108d4098dd22de56717b1, type: 2}
+  - Difficulty: 2
+    Cards:
+    - {fileID: 11400000, guid: a1d6fab432592714fb220e2d26084bb6, type: 2}
+    - {fileID: 11400000, guid: f7778f037bd363e44a3a7198790cad37, type: 2}
+    - {fileID: 11400000, guid: 6ccadf96ea055ed4b9f19b8f1c3ee25a, type: 2}

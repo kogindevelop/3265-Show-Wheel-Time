@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01916d2dc7a53414383ffc9e2c9ec750, type: 3}
+  m_Name: CardConfig 2
+  m_EditorClassIdentifier: 
+  ID: 2
+  Name: Fairness in Daily Life
+  Description: "Fairness means treating people equally, listening to others, and
+    sharing resources or chances. It\u2019s about respect and justice."
+  Question:
+    Name: What does fairness involve?
+    Answers:
+    - Text: Winning at all costs
+      IsCorrect: 0
+    - Text: "Ignoring others\u2019 needs"
+      IsCorrect: 0
+    - Text: Equal treatment and respect
+      IsCorrect: 1
+    - Text: Following your emotions
+      IsCorrect: 0
