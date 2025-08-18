@@ -571,7 +571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed0991287c69c42428f39a7467bb8cc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  url: https://doc-hosting.flycricket.io/show-wheel-time-privacy-policy/1b3956a7-de8b-4828-a6db-05da6ce50f23/privacy
+  url: https://doc-hosting.flycricket.io/excellence-time-privacy-policy/1b3956a7-de8b-4828-a6db-05da6ce50f23/privacy
 --- !u!1 &2720597933230256980
 GameObject:
   m_ObjectHideFlags: 0
@@ -780,7 +780,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed0991287c69c42428f39a7467bb8cc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  url: https://doc-hosting.flycricket.io/show-wheel-time-terms-of-use/5b829391-0ee8-4b94-9c8a-d8b9b3259733/terms
+  url: https://doc-hosting.flycricket.io/excellence-time-terms-of-use/5b829391-0ee8-4b94-9c8a-d8b9b3259733/terms
 --- !u!1 &4139075900601531667
 GameObject:
   m_ObjectHideFlags: 0
