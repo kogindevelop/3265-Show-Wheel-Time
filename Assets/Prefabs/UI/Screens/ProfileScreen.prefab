@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3627905153523559526}
   - component: {fileID: 617027508356992461}
   - component: {fileID: 4077254923138346107}
+  - component: {fileID: 5094368690044459770}
   m_Layer: 5
   m_Name: PolicyButton
   m_TagString: Untagged
@@ -149,6 +150,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf4abdf95a6dc564caaa761f5c5620d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5094368690044459770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 472999688831322675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed0991287c69c42428f39a7467bb8cc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: https://doc-hosting.flycricket.io/excellence-time-privacy-policy/1b3956a7-de8b-4828-a6db-05da6ce50f23/privacy
 --- !u!1 &758906730787438110
 GameObject:
   m_ObjectHideFlags: 0
@@ -241,7 +255,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 101.15
+  m_fontSize: 120.2
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -542,7 +556,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 33.4
+  m_fontSize: 39.65
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -598,6 +612,7 @@ GameObject:
   - component: {fileID: 8013001959393304771}
   - component: {fileID: 5704935982290364176}
   - component: {fileID: 8501104806352457466}
+  - component: {fileID: 261673624225417275}
   m_Layer: 5
   m_Name: TermsButton
   m_TagString: Untagged
@@ -733,6 +748,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf4abdf95a6dc564caaa761f5c5620d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &261673624225417275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204365557565655700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed0991287c69c42428f39a7467bb8cc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: https://doc-hosting.flycricket.io/excellence-time-terms-of-use/5b829391-0ee8-4b94-9c8a-d8b9b3259733/terms
 --- !u!1 &1538218850828203890
 GameObject:
   m_ObjectHideFlags: 0
@@ -916,7 +944,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 79.2
+  m_fontSize: 94.15
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1142,7 +1170,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 80.9
+  m_fontSize: 96.15
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1312,7 +1340,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36.35
+  m_fontSize: 43.2
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1482,7 +1510,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 79.2
+  m_fontSize: 94.15
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1809,7 +1837,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 39.6
+  m_fontSize: 47.1
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2266,11 +2294,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7934476590883455016, guid: 5ffa74894beda48b998cd6de15b7d009, type: 3}
       propertyPath: m_MinWidth
-      value: 125.53464
+      value: 149.15967
       objectReference: {fileID: 0}
     - target: {fileID: 7934476590883455016, guid: 5ffa74894beda48b998cd6de15b7d009, type: 3}
       propertyPath: m_PreferredWidth
-      value: 125.53464
+      value: 149.15967
       objectReference: {fileID: 0}
     - target: {fileID: 7934476591132671810, guid: 5ffa74894beda48b998cd6de15b7d009, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2302,11 +2330,11 @@ PrefabInstance:
       objectReference: {fileID: 12800000, guid: 2124f7a5a02214b4aa80774d2e2b4e6c, type: 3}
     - target: {fileID: 7934476591279845307, guid: 5ffa74894beda48b998cd6de15b7d009, type: 3}
       propertyPath: m_MinWidth
-      value: 131.51248
+      value: 156.26251
       objectReference: {fileID: 0}
     - target: {fileID: 7934476591279845307, guid: 5ffa74894beda48b998cd6de15b7d009, type: 3}
       propertyPath: m_PreferredWidth
-      value: 131.51248
+      value: 156.26251
       objectReference: {fileID: 0}
     - target: {fileID: 7934476591534737598, guid: 5ffa74894beda48b998cd6de15b7d009, type: 3}
       propertyPath: m_Pivot.x

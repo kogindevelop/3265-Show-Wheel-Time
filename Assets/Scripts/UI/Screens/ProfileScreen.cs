@@ -30,8 +30,8 @@ namespace UI.Screens
         private void SubscribeEvents()
         {
             _backButton.onClick.AddListener(() => OnBackPressed?.Invoke());
-            _termsButton.onClick.AddListener(() => OnTermsPressed?.Invoke());
-            _privacyButton.onClick.AddListener(() => OnPrivacyPressed?.Invoke());
+            //_termsButton.onClick.AddListener(() => OnTermsPressed?.Invoke());
+            //_privacyButton.onClick.AddListener(() => OnPrivacyPressed?.Invoke());
         }
     }
 }
